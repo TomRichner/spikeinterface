@@ -134,6 +134,7 @@ For raw recording formats, we currently support:
 * **MCS RAW** :py:func:`~spikeinterface.extractors.read_mcsraw()`
 * **MEArec** :py:func:`~spikeinterface.extractors.read_mearec()`
 * **Mountainsort MDA** :py:func:`~spikeinterface.extractors.read_mda_recording()`
+* **Natus / XLTEK (NeuroWorks)** :py:func:`~spikeinterface.extractors.read_natus()`
 * **Neuralynx** :py:func:`~spikeinterface.extractors.read_neuralynx()`
 * **Neurodata Without Borders** :py:func:`~spikeinterface.extractors.read_nwb_recording()`
 * **NeuroNexus** :py:func:`~spikeinterface.coextractorsre.read_neuronexus()`

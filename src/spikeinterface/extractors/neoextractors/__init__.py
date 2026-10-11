@@ -9,6 +9,7 @@ from .intan import IntanRecordingExtractor, read_intan
 from .maxwell import MaxwellRecordingExtractor, MaxwellEventExtractor, read_maxwell, read_maxwell_event
 from .mearec import MEArecRecordingExtractor, MEArecSortingExtractor, read_mearec
 from .mcsraw import MCSRawRecordingExtractor, read_mcsraw
+from .natus import NatusRecordingExtractor, read_natus
 from .neuralynx import NeuralynxRecordingExtractor, NeuralynxSortingExtractor, read_neuralynx, read_neuralynx_sorting
 from .neuronexus import NeuroNexusRecordingExtractor, read_neuronexus
 from .neuroscope import (
@@ -60,6 +61,7 @@ neo_recording_extractors_dict = {
     MaxwellRecordingExtractor: dict(wrapper_string="read_maxwell", wrapper_class=read_maxwell),
     MEArecRecordingExtractor: dict(wrapper_string="read_mearec", wrapper_class=read_mearec),
     MCSRawRecordingExtractor: dict(wrapper_string="read_mcsraw", wrapper_class=read_mcsraw),
+    NatusRecordingExtractor: dict(wrapper_string="read_natus", wrapper_class=read_natus),
     NeuralynxRecordingExtractor: dict(wrapper_string="read_neuralynx", wrapper_class=read_neuralynx),
     NeuroScopeRecordingExtractor: dict(
         wrapper_string="read_neuroscope_recording", wrapper_class=read_neuroscope_recording

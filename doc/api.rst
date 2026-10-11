@@ -108,6 +108,7 @@ NEO-based
     .. autofunction:: read_maxwell
     .. autofunction:: read_mearec
     .. autofunction:: read_mcsraw
+    .. autofunction:: read_natus
     .. autofunction:: read_neuralynx
     .. autofunction:: read_neuralynx_sorting
     .. autofunction:: read_neuroexplorer
